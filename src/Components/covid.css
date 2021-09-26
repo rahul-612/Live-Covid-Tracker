@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section{
+    background-color: rgb(17, 16, 16);
+    height: 100vh;
+}
+
+h1{
+color: white;
+text-align: center;
+font-size: 22px;
+font-weight: bold;
+animation: h1 1.5s linear infinite alternate;
+position: fixed;
+left:46.5vw;
+
+}
+
+@keyframes h1 {
+  0%{
+    font-size: 22px;
+  }
+  100%{
+    font-size: 34px;
+  }
+  
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 9vh;
+    text-decoration: underline;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    position: relative;
+    top: 9vh;
+}
+
+.card{
+    height: 185px;
+    width: 295px;
+    color: white;
+    background-color: blanchedalmond;
+    /* border: solid 2px black; */
+    margin: 27px;
+    border-radius: 6px;
+    cursor:grab;
+}
+.card:hover{
+  height:190px;
+  width: 310px;
+}
+.card_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_name{
+    padding: 13px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.card_name span{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card_total{
+    /* padding: 20px; */
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow:5px 5px 10px black;
+   
+    padding: 12px;
+}
+
+#card1{
+    background-color: #1174b1;
+}
+  
+
+  #card2{
+    background-color: rgb(19 154 64 / 92%);
+  }
+
+  #card3{
+    background-color: rgb(208 208 14);
+  }
+  #card4{
+    background-color: orangered;
+  }
+  #card5{
+    background-color: rgb(34 34 158);
+  }
+  #card6{
+    background-color: #bdb147;
+  }
